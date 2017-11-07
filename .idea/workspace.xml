@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7e3290-5c55-428c-b56d-dea0d64002e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/models/Lugar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/models/TablaDeDestinos.java" />
-    </list>
+    <list default="true" id="8b7e3290-5c55-428c-b56d-dea0d64002e7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,12 +282,12 @@
       <updated>1510094151051</updated>
       <workItem from="1510094152202" duration="196000" />
       <workItem from="1510094372819" duration="274000" />
-      <workItem from="1510095155768" duration="1039000" />
+      <workItem from="1510095155768" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1509000" />
+    <option name="totallyTimeSpent" value="1548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="109" width="1400" height="1000" extended-state="0" />
