@@ -1,10 +1,10 @@
 package com.company.models;
 
-public class TablaDeDestinos {
+public class Tramo {
     private Lugar origen, destino;
     private int costoMillas, gananciaMillas;
 
-    public TablaDeDestinos(Lugar origen, Lugar destino, int costoMillas, int gananciaMillas) {
+    public Tramo(Lugar origen, Lugar destino, int costoMillas, int gananciaMillas) {
         this.origen = origen;
         this.destino = destino;
         this.costoMillas = costoMillas;
@@ -46,9 +46,9 @@ public class TablaDeDestinos {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof TablaDeDestinos)) return false;
+        if (!(o instanceof Tramo)) return false;
 
-        TablaDeDestinos that = (TablaDeDestinos) o;
+        Tramo that = (Tramo) o;
 
         if (!origen.equals(that.origen)) return false;
         return destino.equals(that.destino);
