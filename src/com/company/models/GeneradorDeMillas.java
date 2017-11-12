@@ -12,13 +12,13 @@ public abstract class GeneradorDeMillas {
     // Getters y Setters
     
     
-    /*public int getId() {
+    public int getId() {
         return id;
     }
     
     public void setId(int id) {
         this.id = id;
-    }*/
+    }
     
     public String getNombre() {
         return Nombre;
