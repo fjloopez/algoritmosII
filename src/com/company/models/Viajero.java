@@ -1,6 +1,9 @@
 package com.company.models;
+import com.company.exceptions.EstadoNoValido;
+import com.company.exceptions.MillasInsuficientes;
 
-import java.util.ArrayList;
+import java.util.*;
+
 
 public class Viajero {
     // Constantes
@@ -16,12 +19,16 @@ public class Viajero {
     public static final int MILLAS_SUMA_PERCENTIL_FRECUENTE = 1000;
     public static final double PERCENTIL_FRECUENTE = 0.02;
     public static final double MAX_PERCENTIL_FRECUENTE = 0.3;
-
+    
+    // Estados validos para poder agregar al generador de millas
+    private Collection<EstadoGM> estadosValidos = new ArrayList<EstadoGM>(){{
+        add(EstadoGM.DISPONIBLE);
+        add(EstadoGM.TEMPORALMENTE);
+    }};
+    
     // Propiedades
-
     private String nombre, DNI;
     private TipoViajero tipo;
-
     private ArrayList<GeneradorDeMillas> millasGeneradas;
     private ArrayList<Canje> millasCanjeadas;
 
@@ -61,7 +68,7 @@ public class Viajero {
     public void setTipo(TipoViajero tipo) {
         this.tipo = tipo;
     }
-
+    
     // Op Complejas: Acumulación y Canjeo de millas
 
     /**
@@ -95,10 +102,14 @@ public class Viajero {
     /**
      * Registra la operación de suma de millas. Se conserva referencia a la operación de suma de milla, por ende
      * se espera que la misma sea inmutable.
-     * @param generador El generador de millas que va a sumar millas al Viajero.
+     * @param generador El generador de millas que va a verificar que el Generador tenga un estado valido y luego sumara las millas al Viajero.
      */
-    public void sumarMillas(GeneradorDeMillas generador) {
-        millasGeneradas.add(generador);
+    public void sumarMillas(GeneradorDeMillas generador) throws EstadoNoValido {
+        if (this.estadosValidos.contains(generador.getEstado())){
+            millasGeneradas.add(generador);
+        } else{
+            throw new EstadoNoValido("El" + generador.getDescripcion() + "no se encuentra disponible");
+        }
     }
 
     /**
@@ -106,7 +117,7 @@ public class Viajero {
      * @param canjeable La operación de canjes que va a restar millar al Viajero.
      * @throws IllegalArgumentException Si la cantidad de millas que se pretende canjear es mayor a las disponibles.
      */
-    public void canjearMillas(Canjeable canjeable) throws IllegalArgumentException {
+    public void canjearMillas(Canjeable canjeable) throws MillasInsuficientes {
         Canje canje = new Canje(canjeable, getDescuento());
 
         if (getMillasDisponibles() - canje.getMillasConsumidas() >= 0) {
@@ -119,7 +130,7 @@ public class Viajero {
             }
         }
         else {
-            throw new IllegalArgumentException();
+            throw new MillasInsuficientes("Millas insuficientes para la operacion");
         }
     }
 
