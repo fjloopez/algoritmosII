@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b7e3290-5c55-428c-b56d-dea0d64002e7" name="Default" comment="agregue excepciones personalizadas y validacion en viajero">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CREDITS.txt" afterPath="$PROJECT_DIR$/src/main/resources/public/CREDITS.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/LICENSE.txt" afterPath="$PROJECT_DIR$/src/main/resources/public/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/css/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/css/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.scrollex.min.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/jquery.scrollex.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.scrolly.min.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/jquery.scrolly.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/main.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/skel.min.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/skel.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/util.js" afterPath="$PROJECT_DIR$/src/main/resources/public/assets/js/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/consumibles.html" afterPath="$PROJECT_DIR$/src/main/resources/public/consumibles.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/2_CATERS_SPORTS_CAR_ON_WATER.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/2_CATERS_SPORTS_CAR_ON_WATER.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/vcm_s_kf_m160_160x99.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/vcm_s_kf_m160_160x99.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/vcm_s_kf_repr_800x498.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/2_CATERS_SPORTS_CAR_ON_WATER_06-800x498.jpg.files/vcm_s_kf_repr_800x498.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/Fly-Blue-gran-catamaran-2.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/Fly-Blue-gran-catamaran-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/Fly-Blue-gran-catamaran-2.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/Fly-Blue-gran-catamaran-2.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/Fly-Blue-gran-catamaran-2.jpg.files/vcm_s_kf_m160_160x125.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/Fly-Blue-gran-catamaran-2.jpg.files/vcm_s_kf_m160_160x125.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/Fly-Blue-gran-catamaran-2.jpg.files/vcm_s_kf_repr_767x600.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/Fly-Blue-gran-catamaran-2.jpg.files/vcm_s_kf_repr_767x600.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner.jpg.files/vcm_s_kf_m160_160x106.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner.jpg.files/vcm_s_kf_m160_160x106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner.jpg.files/vcm_s_kf_repr_882x588.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner.jpg.files/vcm_s_kf_repr_882x588.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner2.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner2.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner2.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner2.jpg.files/vcm_s_kf_m160_160x106.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner2.jpg.files/vcm_s_kf_m160_160x106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner2.jpg.files/vcm_s_kf_repr_882x588.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner2.jpg.files/vcm_s_kf_repr_882x588.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner3.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner3.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner3.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner3.jpg.files/vcm_s_kf_m160_160x106.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner3.jpg.files/vcm_s_kf_m160_160x106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner3.jpg.files/vcm_s_kf_repr_882x588.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner3.jpg.files/vcm_s_kf_repr_882x588.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner4.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner4.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner4.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner4.jpg.files/vcm_s_kf_m160_160x106.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner4.jpg.files/vcm_s_kf_m160_160x106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner4.jpg.files/vcm_s_kf_repr_882x588.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner4.jpg.files/vcm_s_kf_repr_882x588.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner5.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner5.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner5.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner5.jpg.files/vcm_s_kf_m160_160x106.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner5.jpg.files/vcm_s_kf_m160_160x106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/banner5.jpg.files/vcm_s_kf_repr_882x588.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/banner5.jpg.files/vcm_s_kf_repr_882x588.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/flyAcross_slider-4.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/flyAcross_slider-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/flyAcross_slider-4.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/flyAcross_slider-4.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/flyAcross_slider-4.jpg.files/vcm_s_kf_m160_160x96.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/flyAcross_slider-4.jpg.files/vcm_s_kf_m160_160x96.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/flyAcross_slider-4.jpg.files/vcm_s_kf_repr_930x558.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/flyAcross_slider-4.jpg.files/vcm_s_kf_repr_930x558.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic01.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic01.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic01.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic01.jpg.files/vcm_s_kf_m160_160x80.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic01.jpg.files/vcm_s_kf_m160_160x80.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic01.jpg.files/vcm_s_kf_repr_600x300.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic01.jpg.files/vcm_s_kf_repr_600x300.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic02.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic02.jpg.files/desktop.ini" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic02.jpg.files/desktop.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic02.jpg.files/vcm_s_kf_m160_160x160.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic02.jpg.files/vcm_s_kf_m160_160x160.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/images/pic02.jpg.files/vcm_s_kf_repr_170x170.jpg" afterPath="$PROJECT_DIR$/src/main/resources/public/images/pic02.jpg.files/vcm_s_kf_repr_170x170.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/tramos_1.html" afterPath="$PROJECT_DIR$/src/main/resources/public/tramos_1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/tramos_2.html" afterPath="$PROJECT_DIR$/src/main/resources/public/tramos_2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/viajeros.html" afterPath="$PROJECT_DIR$/src/main/resources/public/viajeros.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/viajeros2.html" afterPath="$PROJECT_DIR$/src/main/resources/public/viajeros2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/resources/public/index.html" afterPath="$PROJECT_DIR$/target/classes/main/resources/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/index.html" afterPath="$PROJECT_DIR$/target/classes/public/index.html" />
-    </list>
+    <list default="true" id="8b7e3290-5c55-428c-b56d-dea0d64002e7" name="Default" comment="agregue excepciones personalizadas y validacion en viajero" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -383,7 +310,7 @@
       <workItem from="1510703817841" duration="823000" />
       <workItem from="1510704708603" duration="1749000" />
       <workItem from="1510712703780" duration="474000" />
-      <workItem from="1510713183725" duration="95000" />
+      <workItem from="1510713183725" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="Cree las clases que heredan de GeneradorDeMillas e implemente la funcion getMillasGeneradas en cada uno.&#10;Update de tablasDeDestinos a tramo.">
       <created>1510355584977</created>
@@ -396,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28415000" />
+    <option name="totallyTimeSpent" value="28589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +346,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.305169" sideWeight="0.50549453" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890996" sideWeight="0.4945055" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2985782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -796,7 +723,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
