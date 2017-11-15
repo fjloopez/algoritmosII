@@ -8,7 +8,7 @@ public class Main {
 
         port(8080);
 
-        staticFileLocation("../../../../web");
+        staticFileLocation("/public");
 
         get("/api/lugares", (request, response) -> {
             return "[{\"id\": 1, \"nombre\": \"Buenos Aires (EZE)\"}, {\"id\": 2, \"nombre\": \"Buenos Aires (AEP)\"}, {\"id\": 3, \"nombre\": \"Florianopolis (FLP)\"}]";
