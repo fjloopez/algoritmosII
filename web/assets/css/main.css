@@ -1614,7 +1614,7 @@
 
 	body {
 		background-color: #1b1b1b;
-		color: rgba(20, 150, 100, 0.75);
+		color: rgba(200, 155, 100, 0.75);
 	}
 
 	body, input, select, textarea {
@@ -2446,23 +2446,23 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(1, 1, 1, 0.5) !important;
+		color: rgba(255, 255, 255, 0.5) !important;
 	}
 
 	:-moz-placeholder {
-		color: rgba(1, 1, 1, 0.5) !important;
+		color: rgba(255, 255, 255, 0.5) !important;
 	}
 
 	::-moz-placeholder {
-		color: rgba(1, 1, 1, 0.5) !important;
+		color: rgba(255, 255, 255, 0.5) !important;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(1, 1, 1, 0.5) !important;
+		color: rgba(255, 255, 255, 0.5) !important;
 	}
 
 	.formerize-placeholder {
-		color: rgba(1, 1, 1, 0.5) !important;
+		color: rgba(255, 255, 255, 0.5) !important;
 	}
 
 /* Icon */
