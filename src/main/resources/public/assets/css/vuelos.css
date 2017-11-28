@@ -1,0 +1,21 @@
+
+.template {
+    display: none;
+}
+
+.error_general {
+    background-color: rgba(120, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+
+    text-align: center;
+    color: #f00;
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: #000 4px 4px;
+}

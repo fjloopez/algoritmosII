@@ -5,6 +5,7 @@
 	<title>Tramos</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/vuelos.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
@@ -32,7 +33,7 @@
 						<article class="box">
 						<h3>Tramos</h3>
 								<div class="table-wrapper">
-									<table>
+									<table id="tramos">
 										<thead>
 											<tr>
 												<th>Origen</th>
@@ -44,11 +45,11 @@
 										</thead>
 										<tbody>
 											<tr class="template">
-												<td>Argentina</td>
-												<td>Grecia</td>
+												<td>{origen}</td>
+												<td>{destino}</td>
 												<td>29.99</td>
-												<td><a href="tramos_2.html">+</a></td>
-												<td>-</td>
+												<td><a href="tramos_2.html?id={id}">Editar</a></td>
+												<td><a class="borrar" data-entry-id="{id}">Borrar</a></td>
 											</tr>
 										</tbody>
 									</table>
@@ -69,6 +70,9 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/vuelos.js"></script>
+
+		<!-- Especifico de Vuelos -->
+			<script src="assets/js/vuelos_helper.js"></script>
+			<script src="assets/js/tramos.js"></script>
 	</body>
 </html>
