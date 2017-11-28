@@ -19,7 +19,7 @@ $.prototype.moldear = function(datos) {
 }
 
 window.obtenerId = function() {
-    var id = window.location.href.match(/\?id=(.?)$/)
+    var id = window.location.href.match(/\?id=(.?)(#(.*?))?$/)
     if (id != null && !isNaN(parseInt(id[1]))) {
         return parseInt(id[1])
     }
@@ -29,7 +29,7 @@ window.obtenerId = function() {
 }
 
 window.obtenerNombrePagina = function() {
-    var match = window.location.href.match(/\/([^\/\?]+)(\?(.*?))?$/)
+    var match = window.location.href.match(/\/([^\/\?#]+)(\?(.*?))?(#(.*?))?$/)
     if (match != null) {
         return match[1]
     }
