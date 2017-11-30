@@ -8,6 +8,8 @@ public class Main {
 
         staticFileLocation("/public");
 
+        // Tramos y Lugares
+
         get("/api/lugares", (request, response) -> {
             return "[{\"id\": 1, \"nombre\": \"Buenos Aires (EZE)\"}, {\"id\": 2, \"nombre\": \"Buenos Aires (AEP)\"}, {\"id\": 3, \"nombre\": \"Florianopolis (FLP)\"}]";
         });
@@ -32,5 +34,10 @@ public class Main {
         patch("/api/tramos/:id", (request, respnse) -> {
             return "OK" + request.params(":id");
         });
+
+        delete("/api/tramos/:id", (request, respnse) -> {
+            return "OK" + request.params(":id");
+        });
+
     }
 }
