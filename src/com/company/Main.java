@@ -1,5 +1,3 @@
-package com.company;
-
 import static spark.Spark.*;
 
 public class Main {

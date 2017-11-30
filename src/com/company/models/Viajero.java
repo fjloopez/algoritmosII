@@ -1,6 +1,6 @@
-package com.company.models;
-import com.company.exceptions.EstadoNoValido;
-import com.company.exceptions.MillasInsuficientes;
+package models;
+import exceptions.EstadoNoValido;
+import exceptions.MillasInsuficientes;
 
 import java.util.*;
 

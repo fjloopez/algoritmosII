@@ -1,4 +1,4 @@
-package com.company.models;
+package models;
 
 public class Viaje extends GeneradorDeMillas implements Canjeable {
     
