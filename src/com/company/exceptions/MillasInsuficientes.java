@@ -1,4 +1,4 @@
-package com.company.exceptions;
+package exceptions;
 
 public class MillasInsuficientes extends Exception{
     

@@ -1,4 +1,4 @@
-package com.company.models;
+package models;
 
 public class Tramo {
     private Lugar origen, destino;
